@@ -1,0 +1,30 @@
+<html>
+<head> 
+<style>
+	textarea{ vertical-align: top;height:110px;width: 200px;resize:none;}
+</style>
+ </head>
+<body>
+	
+	<h1><u>Editing Proposal Page</u></h1>
+		<form method="post" enctype="multipart/form-data">
+
+		<b>Proposal Title :</b>
+		<input type="text" name="proposaltitle"><br><br>
+
+		<b>Proposed Cost :</b>
+		<input type="text" name="proposedcost"><br><br>
+
+		<b>Summary Description :</b>
+		<textarea name="summarydesc" rows="5" cols="30" wrap="soft"> 
+		</textarea><br><br>
+
+		<b>File Upload :</b>
+		<input type="file" name="uploadfile"><br><br>
+
+		<b>Sub Contractors :</b>
+		<input type="text" name="subcontract"><br><br> 
+
+		</form>
+</body>
+</html>
