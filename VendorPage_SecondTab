@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+	h1{ border:1px solid #666;padding:5px;}
+</style>
+	</head>
+<body>
+	<h1 align="center">All Available RFPs</h1>
+
+	<form method="get" >
+
+		<b>RFP # :</b>
+		<input type="text" name="rfpnumber" size="10" maxlength="5">
+
+		<b>RFP Title :</b>
+		<input type="text" name="rfptitle">
+
+		<b>Deadline :</b>
+		<input type="text" name="deadline">
+
+		<button type="button" >View </button>
+
+		<button type="button" onClick="alert('Thank You')">Accept</button>	
+
+
+	</form>	
+</body>
+</html>
